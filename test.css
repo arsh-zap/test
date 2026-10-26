@@ -1,0 +1,36 @@
+.box-model{
+    height: 50px;
+    width: 50px;
+    max-width: 500px;
+    padding: 50px;
+    border: 5px solid blueviolet;
+    box-sizing: border-box;
+}
+
+.card{
+    height: 50px;
+    width: 500px;
+    min-width: 300px;
+    padding: 10px;
+    border: 10px solid brown;
+    box-sizing: border-box;
+}
+
+.inline{
+    display: inline-block;
+}
+
+.table{
+    width: 100%;
+    border-collapse: collapse;
+    margin: 10px;
+}
+
+tbody tr:nth-child(even) {
+    background-color: gray;    
+}
+tbody tr:hover {
+    background-color: orange;
+    cursor: pointer;
+}
+
